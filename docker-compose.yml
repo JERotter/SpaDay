@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  spaday:
+    image: ${DOCKER_REGISTRY-}spaday
+    build:
+      context: .
+      dockerfile: SpaDay/Dockerfile
